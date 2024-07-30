@@ -1,0 +1,3090 @@
+{
+  "data": {
+    "context": {
+      "status": "incomplete",
+      "sessionId": "ClQIARJQCk4KJDRmMTMwODUzLTBkMjEtNGU1ZS05NjY0LTFhZTE2OTBlMWEzZhACGiRmNzc5MzMxZi1lZjBhLTQ0NGYtYTI1ZC04MzQwNDlkMTllZTESKHVzc183MDg0YTM0ZS1jOGRlLTQyNmQtYmEyOS1mODI0MGQyMDBhNzg=",
+      "totalResults": 10
+    },
+    "itineraries": [
+      {
+        "id": "17648-2409162250--32093-0-14788-2409171835|14788-2409302235--32093-0-17648-2410010600",
+        "price": {
+          "raw": 4416.99,
+          "formatted": "4 417 zł",
+          "pricingOptionId": "YNJfKwLq7Cj5"
+        },
+        "legs": [
+          {
+            "id": "17648-2409162250--32093-0-14788-2409171835",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 765,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T22:50:00",
+            "arrival": "2024-09-17T18:35:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32093,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+                  "name": "LOT"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-14788-2409162250-2409171835--32093",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-16T22:50:00",
+                "arrival": "2024-09-17T18:35:00",
+                "durationInMinutes": 765,
+                "flightNumber": "79",
+                "marketingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409302235--32093-0-17648-2410010600",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 865,
+            "stopCount": 0,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T22:35:00",
+            "arrival": "2024-10-01T06:00:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32093,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+                  "name": "LOT"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-17648-2409302235-2410010600--32093",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T22:35:00",
+                "arrival": "2024-10-01T06:00:00",
+                "durationInMinutes": 865,
+                "flightNumber": "80",
+                "marketingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 42.678024
+        },
+        "fareAttributes": {},
+        "tags": [
+          "third_cheapest",
+          "shortest"
+        ],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.999
+      },
+      {
+        "id": "17648-2409161510--32348-1-14788-2409171735|14788-2409302230--32348-1-17648-2410011215",
+        "price": {
+          "raw": 4561.97,
+          "formatted": "4 562 zł",
+          "pricingOptionId": "cHwECxcWG0TW"
+        },
+        "legs": [
+          {
+            "id": "17648-2409161510--32348-1-14788-2409171735",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1165,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T15:10:00",
+            "arrival": "2024-09-17T17:35:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32348,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EK.png",
+                  "name": "Emirates"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-11182-2409161510-2409162255--32348",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "DXB",
+                  "displayCode": "DXB",
+                  "parent": {
+                    "flightPlaceId": "DXBA",
+                    "displayCode": "DXB",
+                    "name": "Dubaj",
+                    "type": "City"
+                  },
+                  "name": "Dubaj",
+                  "type": "Airport",
+                  "country": "Zjednoczone Emiraty Arabskie"
+                },
+                "departure": "2024-09-16T15:10:00",
+                "arrival": "2024-09-16T22:55:00",
+                "durationInMinutes": 345,
+                "flightNumber": "180",
+                "marketingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "11182-14788-2409170240-2409171735--32348",
+                "origin": {
+                  "flightPlaceId": "DXB",
+                  "displayCode": "DXB",
+                  "parent": {
+                    "flightPlaceId": "DXBA",
+                    "displayCode": "DXB",
+                    "name": "Dubaj",
+                    "type": "City"
+                  },
+                  "name": "Dubaj",
+                  "type": "Airport",
+                  "country": "Zjednoczone Emiraty Arabskie"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-17T02:40:00",
+                "arrival": "2024-09-17T17:35:00",
+                "durationInMinutes": 595,
+                "flightNumber": "318",
+                "marketingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409302230--32348-1-17648-2410011215",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1245,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T22:30:00",
+            "arrival": "2024-10-01T12:15:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32348,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EK.png",
+                  "name": "Emirates"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-11182-2409302230-2410010410--32348",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "DXB",
+                  "displayCode": "DXB",
+                  "parent": {
+                    "flightPlaceId": "DXBA",
+                    "displayCode": "DXB",
+                    "name": "Dubaj",
+                    "type": "City"
+                  },
+                  "name": "Dubaj",
+                  "type": "Airport",
+                  "country": "Zjednoczone Emiraty Arabskie"
+                },
+                "departure": "2024-09-30T22:30:00",
+                "arrival": "2024-10-01T04:10:00",
+                "durationInMinutes": 640,
+                "flightNumber": "319",
+                "marketingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "11182-17648-2410010810-2410011215--32348",
+                "origin": {
+                  "flightPlaceId": "DXB",
+                  "displayCode": "DXB",
+                  "parent": {
+                    "flightPlaceId": "DXBA",
+                    "displayCode": "DXB",
+                    "name": "Dubaj",
+                    "type": "City"
+                  },
+                  "name": "Dubaj",
+                  "type": "Airport",
+                  "country": "Zjednoczone Emiraty Arabskie"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-10-01T08:10:00",
+                "arrival": "2024-10-01T12:15:00",
+                "durationInMinutes": 365,
+                "flightNumber": "179",
+                "marketingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32348,
+                  "name": "Emirates",
+                  "alternateId": "EK",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.723966
+      },
+      {
+        "id": "17648-2409161940--32132-2-14788-2409180910|14788-2409301235--32132-1-17648-2409302210",
+        "price": {
+          "raw": 3910.09,
+          "formatted": "3 911 zł",
+          "pricingOptionId": "hm7FQngq2xp5"
+        },
+        "legs": [
+          {
+            "id": "17648-2409161940--32132-2-14788-2409180910",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1830,
+            "stopCount": 2,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T19:40:00",
+            "arrival": "2024-09-18T09:10:00",
+            "timeDeltaInDays": 2,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32132,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                  "name": "KLM"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -32131,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/WA.png",
+                  "name": "KLM Cityhopper"
+                },
+                {
+                  "id": -32677,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AF.png",
+                  "name": "Air France"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-9451-2409161940-2409162140--32132",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "departure": "2024-09-16T19:40:00",
+                "arrival": "2024-09-16T21:40:00",
+                "durationInMinutes": 120,
+                "flightNumber": "1318",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32131,
+                  "name": "KLM Cityhopper",
+                  "alternateId": "WA",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "9451-10413-2409170645-2409170755--32132",
+                "origin": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "destination": {
+                  "flightPlaceId": "CDG",
+                  "displayCode": "CDG",
+                  "parent": {
+                    "flightPlaceId": "PARI",
+                    "displayCode": "PAR",
+                    "name": "Paryż",
+                    "type": "City"
+                  },
+                  "name": "Paryż Charles de Gaulle",
+                  "type": "Airport",
+                  "country": "Francja"
+                },
+                "departure": "2024-09-17T06:45:00",
+                "arrival": "2024-09-17T07:55:00",
+                "durationInMinutes": 70,
+                "flightNumber": "1401",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "10413-14788-2409171220-2409180910--32132",
+                "origin": {
+                  "flightPlaceId": "CDG",
+                  "displayCode": "CDG",
+                  "parent": {
+                    "flightPlaceId": "PARI",
+                    "displayCode": "PAR",
+                    "name": "Paryż",
+                    "type": "City"
+                  },
+                  "name": "Paryż Charles de Gaulle",
+                  "type": "Airport",
+                  "country": "Francja"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-17T12:20:00",
+                "arrival": "2024-09-18T09:10:00",
+                "durationInMinutes": 830,
+                "flightNumber": "2294",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32677,
+                  "name": "Air France",
+                  "alternateId": "AF",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301235--32132-1-17648-2409302210",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 995,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T12:35:00",
+            "arrival": "2024-09-30T22:10:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32132,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                  "name": "KLM"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-9451-2409301235-2409301925--32132",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "departure": "2024-09-30T12:35:00",
+                "arrival": "2024-09-30T19:25:00",
+                "durationInMinutes": 830,
+                "flightNumber": "862",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "9451-17648-2409302020-2409302210--32132",
+                "origin": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T20:20:00",
+                "arrival": "2024-09-30T22:10:00",
+                "durationInMinutes": 110,
+                "flightNumber": "1319",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 6.945223
+        },
+        "fareAttributes": {},
+        "tags": [
+          "cheapest"
+        ],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.712715
+      },
+      {
+        "id": "17648-2409161710--32132-2-14788-2409180910|14788-2409301235--32132-1-17648-2409302210",
+        "price": {
+          "raw": 3935.93,
+          "formatted": "3 936 zł",
+          "pricingOptionId": "cqNMVK_UURZE"
+        },
+        "legs": [
+          {
+            "id": "17648-2409161710--32132-2-14788-2409180910",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1980,
+            "stopCount": 2,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T17:10:00",
+            "arrival": "2024-09-18T09:10:00",
+            "timeDeltaInDays": 2,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32132,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                  "name": "KLM"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -32677,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AF.png",
+                  "name": "Air France"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-9451-2409161710-2409161910--32132",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "departure": "2024-09-16T17:10:00",
+                "arrival": "2024-09-16T19:10:00",
+                "durationInMinutes": 120,
+                "flightNumber": "1316",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "9451-10413-2409170645-2409170755--32132",
+                "origin": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "destination": {
+                  "flightPlaceId": "CDG",
+                  "displayCode": "CDG",
+                  "parent": {
+                    "flightPlaceId": "PARI",
+                    "displayCode": "PAR",
+                    "name": "Paryż",
+                    "type": "City"
+                  },
+                  "name": "Paryż Charles de Gaulle",
+                  "type": "Airport",
+                  "country": "Francja"
+                },
+                "departure": "2024-09-17T06:45:00",
+                "arrival": "2024-09-17T07:55:00",
+                "durationInMinutes": 70,
+                "flightNumber": "1401",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "10413-14788-2409171220-2409180910--32132",
+                "origin": {
+                  "flightPlaceId": "CDG",
+                  "displayCode": "CDG",
+                  "parent": {
+                    "flightPlaceId": "PARI",
+                    "displayCode": "PAR",
+                    "name": "Paryż",
+                    "type": "City"
+                  },
+                  "name": "Paryż Charles de Gaulle",
+                  "type": "Airport",
+                  "country": "Francja"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-17T12:20:00",
+                "arrival": "2024-09-18T09:10:00",
+                "durationInMinutes": 830,
+                "flightNumber": "2294",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32677,
+                  "name": "Air France",
+                  "alternateId": "AF",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301235--32132-1-17648-2409302210",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 995,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T12:35:00",
+            "arrival": "2024-09-30T22:10:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32132,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                  "name": "KLM"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-9451-2409301235-2409301925--32132",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "departure": "2024-09-30T12:35:00",
+                "arrival": "2024-09-30T19:25:00",
+                "durationInMinutes": 830,
+                "flightNumber": "862",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "9451-17648-2409302020-2409302210--32132",
+                "origin": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T20:20:00",
+                "arrival": "2024-09-30T22:10:00",
+                "durationInMinutes": 110,
+                "flightNumber": "1319",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 8.632916
+        },
+        "fareAttributes": {},
+        "tags": [
+          "second_cheapest"
+        ],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.680884
+      },
+      {
+        "id": "17648-2409160935--31799,-32571-1-14788-2409170905|14788-2409301055--31799-1-17648-2409302150",
+        "price": {
+          "raw": 4746.99,
+          "formatted": "4 747 zł",
+          "pricingOptionId": "Z3MDxAyvbCi8"
+        },
+        "legs": [
+          {
+            "id": "17648-2409160935--31799,-32571-1-14788-2409170905",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 990,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T09:35:00",
+            "arrival": "2024-09-17T09:05:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -31799,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+                  "name": "SWISS"
+                },
+                {
+                  "id": -32571,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NH.png",
+                  "name": "ANA (All Nippon Airways)"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-18563-2409160935-2409161135--31799",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "departure": "2024-09-16T09:35:00",
+                "arrival": "2024-09-16T11:35:00",
+                "durationInMinutes": 120,
+                "flightNumber": "1343",
+                "marketingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "18563-14788-2409161305-2409170905--32571",
+                "origin": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-16T13:05:00",
+                "arrival": "2024-09-17T09:05:00",
+                "durationInMinutes": 780,
+                "flightNumber": "6752",
+                "marketingCarrier": {
+                  "id": -32571,
+                  "name": "ANA (All Nippon Airways)",
+                  "alternateId": "NH",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301055--31799-1-17648-2409302150",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1075,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T10:55:00",
+            "arrival": "2024-09-30T21:50:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -31799,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+                  "name": "SWISS"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -32093,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+                  "name": "LOT"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-18563-2409301055-2409301820--31799",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "departure": "2024-09-30T10:55:00",
+                "arrival": "2024-09-30T18:20:00",
+                "durationInMinutes": 865,
+                "flightNumber": "161",
+                "marketingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "18563-17648-2409301955-2409302150--31799",
+                "origin": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T19:55:00",
+                "arrival": "2024-09-30T21:50:00",
+                "durationInMinutes": 115,
+                "flightNumber": "4502",
+                "marketingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.664228
+      },
+      {
+        "id": "17648-2409160935--31799,-32571-1-14788-2409170905|14788-2409301110--32544-1-17648-2409302040",
+        "price": {
+          "raw": 4750.99,
+          "formatted": "4 751 zł",
+          "pricingOptionId": "sKDEXS-ClqbY"
+        },
+        "legs": [
+          {
+            "id": "17648-2409160935--31799,-32571-1-14788-2409170905",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 990,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T09:35:00",
+            "arrival": "2024-09-17T09:05:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -31799,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+                  "name": "SWISS"
+                },
+                {
+                  "id": -32571,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NH.png",
+                  "name": "ANA (All Nippon Airways)"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-18563-2409160935-2409161135--31799",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "departure": "2024-09-16T09:35:00",
+                "arrival": "2024-09-16T11:35:00",
+                "durationInMinutes": 120,
+                "flightNumber": "1343",
+                "marketingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "18563-14788-2409161305-2409170905--32571",
+                "origin": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-16T13:05:00",
+                "arrival": "2024-09-17T09:05:00",
+                "durationInMinutes": 780,
+                "flightNumber": "6752",
+                "marketingCarrier": {
+                  "id": -32571,
+                  "name": "ANA (All Nippon Airways)",
+                  "alternateId": "NH",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301110--32544-1-17648-2409302040",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 990,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T11:10:00",
+            "arrival": "2024-09-30T20:40:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32544,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OS.png",
+                  "name": "Austrian Airlines"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -32093,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+                  "name": "LOT"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-17517-2409301110-2409301825--32544",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "departure": "2024-09-30T11:10:00",
+                "arrival": "2024-09-30T18:25:00",
+                "durationInMinutes": 855,
+                "flightNumber": "52",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "17517-17648-2409301925-2409302040--32544",
+                "origin": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T19:25:00",
+                "arrival": "2024-09-30T20:40:00",
+                "durationInMinutes": 75,
+                "flightNumber": "8505",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 9.774012
+        },
+        "fareAttributes": {},
+        "tags": [
+          "second_shortest"
+        ],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.625649
+      },
+      {
+        "id": "17648-2409160935--31799,-32571-1-14788-2409170905|14788-2409301110--32544-1-17648-2409302240",
+        "price": {
+          "raw": 4603.99,
+          "formatted": "4 604 zł",
+          "pricingOptionId": "ReaS0LXr91KP"
+        },
+        "legs": [
+          {
+            "id": "17648-2409160935--31799,-32571-1-14788-2409170905",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 990,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T09:35:00",
+            "arrival": "2024-09-17T09:05:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -31799,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+                  "name": "SWISS"
+                },
+                {
+                  "id": -32571,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NH.png",
+                  "name": "ANA (All Nippon Airways)"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-18563-2409160935-2409161135--31799",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "departure": "2024-09-16T09:35:00",
+                "arrival": "2024-09-16T11:35:00",
+                "durationInMinutes": 120,
+                "flightNumber": "1343",
+                "marketingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "18563-14788-2409161305-2409170905--32571",
+                "origin": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-16T13:05:00",
+                "arrival": "2024-09-17T09:05:00",
+                "durationInMinutes": 780,
+                "flightNumber": "6752",
+                "marketingCarrier": {
+                  "id": -32571,
+                  "name": "ANA (All Nippon Airways)",
+                  "alternateId": "NH",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301110--32544-1-17648-2409302240",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1110,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T11:10:00",
+            "arrival": "2024-09-30T22:40:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32544,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OS.png",
+                  "name": "Austrian Airlines"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-17517-2409301110-2409301825--32544",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "departure": "2024-09-30T11:10:00",
+                "arrival": "2024-09-30T18:25:00",
+                "durationInMinutes": 855,
+                "flightNumber": "52",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "17517-17648-2409302125-2409302240--32544",
+                "origin": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T21:25:00",
+                "arrival": "2024-09-30T22:40:00",
+                "durationInMinutes": 75,
+                "flightNumber": "627",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 10.415167
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.611609
+      },
+      {
+        "id": "17648-2409160935--31799,-32571-1-14788-2409170905|14788-2409301110--32571,-32544-1-17648-2409302040",
+        "price": {
+          "raw": 4902.99,
+          "formatted": "4 903 zł",
+          "pricingOptionId": "CN0imfkhu-CR"
+        },
+        "legs": [
+          {
+            "id": "17648-2409160935--31799,-32571-1-14788-2409170905",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 990,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T09:35:00",
+            "arrival": "2024-09-17T09:05:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -31799,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+                  "name": "SWISS"
+                },
+                {
+                  "id": -32571,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NH.png",
+                  "name": "ANA (All Nippon Airways)"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-18563-2409160935-2409161135--31799",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "departure": "2024-09-16T09:35:00",
+                "arrival": "2024-09-16T11:35:00",
+                "durationInMinutes": 120,
+                "flightNumber": "1343",
+                "marketingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "18563-14788-2409161305-2409170905--32571",
+                "origin": {
+                  "flightPlaceId": "ZRH",
+                  "displayCode": "ZRH",
+                  "parent": {
+                    "flightPlaceId": "ZURI",
+                    "displayCode": "ZRH",
+                    "name": "Zurych",
+                    "type": "City"
+                  },
+                  "name": "Zurych",
+                  "type": "Airport",
+                  "country": "Szwajcaria"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-16T13:05:00",
+                "arrival": "2024-09-17T09:05:00",
+                "durationInMinutes": 780,
+                "flightNumber": "6752",
+                "marketingCarrier": {
+                  "id": -32571,
+                  "name": "ANA (All Nippon Airways)",
+                  "alternateId": "NH",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -31799,
+                  "name": "SWISS",
+                  "alternateId": "LX",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301110--32571,-32544-1-17648-2409302040",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 990,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T11:10:00",
+            "arrival": "2024-09-30T20:40:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32571,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NH.png",
+                  "name": "ANA (All Nippon Airways)"
+                },
+                {
+                  "id": -32544,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OS.png",
+                  "name": "Austrian Airlines"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -32544,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OS.png",
+                  "name": "Austrian Airlines"
+                },
+                {
+                  "id": -32093,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+                  "name": "LOT"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-17517-2409301110-2409301825--32571",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "departure": "2024-09-30T11:10:00",
+                "arrival": "2024-09-30T18:25:00",
+                "durationInMinutes": 855,
+                "flightNumber": "6325",
+                "marketingCarrier": {
+                  "id": -32571,
+                  "name": "ANA (All Nippon Airways)",
+                  "alternateId": "NH",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "17517-17648-2409301925-2409302040--32544",
+                "origin": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T19:25:00",
+                "arrival": "2024-09-30T20:40:00",
+                "durationInMinutes": 75,
+                "flightNumber": "8505",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 9.774012
+        },
+        "fareAttributes": {},
+        "tags": [
+          "third_shortest"
+        ],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.606257
+      },
+      {
+        "id": "17648-2409160600--32132-1-14788-2409171045|14788-2409301235--32132-1-17648-2409302210",
+        "price": {
+          "raw": 4967.26,
+          "formatted": "4 968 zł",
+          "pricingOptionId": "QQ3C1XwQwHz9"
+        },
+        "legs": [
+          {
+            "id": "17648-2409160600--32132-1-14788-2409171045",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1305,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T06:00:00",
+            "arrival": "2024-09-17T10:45:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32132,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                  "name": "KLM"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-9451-2409160600-2409160800--32132",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "departure": "2024-09-16T06:00:00",
+                "arrival": "2024-09-16T08:00:00",
+                "durationInMinutes": 120,
+                "flightNumber": "1310",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "9451-14788-2409161420-2409171045--32132",
+                "origin": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-16T14:20:00",
+                "arrival": "2024-09-17T10:45:00",
+                "durationInMinutes": 805,
+                "flightNumber": "861",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301235--32132-1-17648-2409302210",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 995,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T12:35:00",
+            "arrival": "2024-09-30T22:10:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32132,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+                  "name": "KLM"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-9451-2409301235-2409301925--32132",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "departure": "2024-09-30T12:35:00",
+                "arrival": "2024-09-30T19:25:00",
+                "durationInMinutes": 830,
+                "flightNumber": "862",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "9451-17648-2409302020-2409302210--32132",
+                "origin": {
+                  "flightPlaceId": "AMS",
+                  "displayCode": "AMS",
+                  "parent": {
+                    "flightPlaceId": "AMST",
+                    "displayCode": "AMS",
+                    "name": "Amsterdam",
+                    "type": "City"
+                  },
+                  "name": "Amsterdam Schiphol",
+                  "type": "Airport",
+                  "country": "Holandia"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T20:20:00",
+                "arrival": "2024-09-30T22:10:00",
+                "durationInMinutes": 110,
+                "flightNumber": "1319",
+                "marketingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32132,
+                  "name": "KLM",
+                  "alternateId": "KL",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 19.791115
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.605094
+      },
+      {
+        "id": "17648-2409160825--32544-1-14788-2409170850|14788-2409301110--32544-1-17648-2409302040",
+        "price": {
+          "raw": 5693.99,
+          "formatted": "5 694 zł",
+          "pricingOptionId": "IqCOJW9o0gDq"
+        },
+        "legs": [
+          {
+            "id": "17648-2409160825--32544-1-14788-2409170850",
+            "origin": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1045,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-16T08:25:00",
+            "arrival": "2024-09-17T08:50:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32544,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OS.png",
+                  "name": "Austrian Airlines"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "17648-17517-2409160825-2409160940--32544",
+                "origin": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "destination": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "departure": "2024-09-16T08:25:00",
+                "arrival": "2024-09-16T09:40:00",
+                "durationInMinutes": 75,
+                "flightNumber": "626",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "17517-14788-2409161330-2409170850--32544",
+                "origin": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "destination": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "departure": "2024-09-16T13:30:00",
+                "arrival": "2024-09-17T08:50:00",
+                "durationInMinutes": 740,
+                "flightNumber": "51",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "14788-2409301110--32544-1-17648-2409302040",
+            "origin": {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita",
+              "displayCode": "NRT",
+              "city": "Tokio",
+              "country": "Japonia",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina",
+              "displayCode": "WAW",
+              "city": "Warszawa",
+              "country": "Polska",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 990,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2024-09-30T11:10:00",
+            "arrival": "2024-09-30T20:40:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32544,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OS.png",
+                  "name": "Austrian Airlines"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -32093,
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+                  "name": "LOT"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "14788-17517-2409301110-2409301825--32544",
+                "origin": {
+                  "flightPlaceId": "NRT",
+                  "displayCode": "NRT",
+                  "parent": {
+                    "flightPlaceId": "TYOA",
+                    "displayCode": "TYO",
+                    "name": "Tokio",
+                    "type": "City"
+                  },
+                  "name": "Tokio Narita",
+                  "type": "Airport",
+                  "country": "Japonia"
+                },
+                "destination": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "departure": "2024-09-30T11:10:00",
+                "arrival": "2024-09-30T18:25:00",
+                "durationInMinutes": 855,
+                "flightNumber": "52",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              },
+              {
+                "id": "17517-17648-2409301925-2409302040--32544",
+                "origin": {
+                  "flightPlaceId": "VIE",
+                  "displayCode": "VIE",
+                  "parent": {
+                    "flightPlaceId": "VIEN",
+                    "displayCode": "VIE",
+                    "name": "Wiedeń",
+                    "type": "City"
+                  },
+                  "name": "Wiedeń",
+                  "type": "Airport",
+                  "country": "Austria"
+                },
+                "destination": {
+                  "flightPlaceId": "WAW",
+                  "displayCode": "WAW",
+                  "parent": {
+                    "flightPlaceId": "WARS",
+                    "displayCode": "WAW",
+                    "name": "Warszawa",
+                    "type": "City"
+                  },
+                  "name": "Warszawa Chopina",
+                  "type": "Airport",
+                  "country": "Polska"
+                },
+                "departure": "2024-09-30T19:25:00",
+                "arrival": "2024-09-30T20:40:00",
+                "durationInMinutes": 75,
+                "flightNumber": "8505",
+                "marketingCarrier": {
+                  "id": -32544,
+                  "name": "Austrian Airlines",
+                  "alternateId": "OS",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "operatingCarrier": {
+                  "id": -32093,
+                  "name": "LOT",
+                  "alternateId": "LO",
+                  "allianceId": 0,
+                  "displayCode": ""
+                }
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 16.016293
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.59798
+      }
+    ],
+    "messages": [],
+    "filterStats": {
+      "duration": {
+        "min": 865,
+        "max": 1980,
+        "multiCityMin": 1630,
+        "multiCityMax": 2975
+      },
+      "airports": [
+        {
+          "city": "Tokio",
+          "airports": [
+            {
+              "id": "NRT",
+              "entityId": "128668889",
+              "name": "Tokio Narita"
+            }
+          ]
+        },
+        {
+          "city": "Warszawa",
+          "airports": [
+            {
+              "id": "WAW",
+              "entityId": "95673438",
+              "name": "Warszawa Chopina"
+            }
+          ]
+        }
+      ],
+      "carriers": [
+        {
+          "id": -32571,
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NH.png",
+          "name": "ANA (All Nippon Airways)"
+        },
+        {
+          "id": -32544,
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/OS.png",
+          "name": "Austrian Airlines"
+        },
+        {
+          "id": -32348,
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EK.png",
+          "name": "Emirates"
+        },
+        {
+          "id": -32132,
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/KL.png",
+          "name": "KLM"
+        },
+        {
+          "id": -32093,
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+          "name": "LOT"
+        },
+        {
+          "id": -31799,
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+          "name": "SWISS"
+        }
+      ],
+      "stopPrices": {
+        "direct": {
+          "isPresent": true,
+          "formattedPrice": "4 417 zł"
+        },
+        "one": {
+          "isPresent": true,
+          "formattedPrice": "4 562 zł"
+        },
+        "twoOrMore": {
+          "isPresent": true,
+          "formattedPrice": "3 911 zł"
+        }
+      }
+    },
+    "flightsSessionId": "4f130853-0d21-4e5e-9664-1ae1690e1a3f",
+    "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg",
+    "token": "eyJhIjoxLCJjIjowLCJpIjowLCJjYyI6ImVjb25vbXkiLCJvIjoiV0FXIiwiZCI6Ik5SVCIsImQxIjoiMjAyNC0wOS0xNiIsImQyIjoiMjAyNC0wOS0zMCJ9"
+  },
+  "status": true,
+  "message": "Successful"
+}

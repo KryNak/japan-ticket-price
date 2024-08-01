@@ -5,6 +5,12 @@ plugins {
 }
 
 scmVersion {
+    repository {
+        type.set('git')
+        customKeyFile.set(project.file('keys/japan-ticket-price'))
+        customKeyPassword.set(project.file('keypass').text)
+    }
+
     tag {
         prefix.set("japan-ticket-price")
     }

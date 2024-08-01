@@ -1,0 +1,21 @@
+name: Java Build
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: setup java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'oracle'
+          java-version: '17.0.4'
+      - name: release
+        run: ./gradlew release
+      - run: echo ${{steps.release.outputs.released-version}}

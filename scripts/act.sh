@@ -1,7 +1,8 @@
 #!/bin/bash
 
 DIR=$(dirname -- $0)
+PARENT=$DIR/..
 
-pushd $DIR/..
-act -j build --container-architecture linux/arm64
+pushd $PARENT
+act -j build --secret-file $PARENT/.secrets --container-architecture linux/arm64
 popd

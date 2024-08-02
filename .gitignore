@@ -45,6 +45,7 @@ bin/
 jar/
 .gitsecret/keys/random_seed
 !*.secret
+.secrets
 src/main/resources/application.yml
 keypass
 keys/japan-ticket-price

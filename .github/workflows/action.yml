@@ -11,6 +11,11 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      - name: reveal
+        uses: entrostat/git-secret-action@v4
+        with:
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          gpg-private-key-passphrase: ${{ secrets.GPG_PRIVATE_KEY_PASSPHRASE }}
       - name: setup java
         uses: actions/setup-java@v4
         with:

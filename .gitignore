@@ -49,3 +49,4 @@ src/main/resources/application.yml
 keypass
 keys/japan-ticket-price
 keys/japan-ticket-price.pub
+keys/gpg-secret-key

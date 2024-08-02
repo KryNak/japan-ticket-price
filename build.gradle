@@ -12,7 +12,7 @@ scmVersion {
     }
 
     tag {
-        prefix.set("japan-ticket-price ")
+        prefix.set("japan-ticket-price-")
     }
 }
 

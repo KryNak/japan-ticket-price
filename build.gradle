@@ -8,7 +8,7 @@ scmVersion {
     repository {
         type.set('git')
         customKeyFile.set(project.file('keys/japan-ticket-price'))
-        customKeyPassword.set(project.file('keypass').text)
+        customKeyPassword.set(project.file('keypass').text.trim())
     }
 
     tag {

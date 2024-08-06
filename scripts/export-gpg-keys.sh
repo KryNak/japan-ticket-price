@@ -9,5 +9,5 @@ if [[ ! -d $KEY_FOLDER ]]; then
 fi
 
 pushd $KEY_FOLDER
-gpg --armour --export-secret-keys krystian.nakielski200397@gmail.com > gpg-secret-key
+gpg --armour --export-secret-keys bot.github@gmail.com > gpg-secret-key
 popd

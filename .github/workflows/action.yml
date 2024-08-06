@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
-        with:
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - run: |
+          git remote set-url origin git@github.com:KryNak/japan-ticket-price.git
       - name: reveal
         uses: entrostat/git-secret-action@v4
         with:
@@ -23,6 +23,12 @@ jobs:
         with:
           distribution: 'oracle'
           java-version: '17.0.4'
-      - name: release
+      - if: ${{ !env.ACT }}
+        name: release
         run: ./gradlew release
       - run: echo ${{ steps.release.outputs.released-version }}
+      - if: ${{ env.ACT }}
+        run: |
+          set +e
+          test "$(git config remote.origin.url)" = "git@github.com:KryNak/japan-ticket-price.git" \
+          && echo "remote.origin.url is set ok" || echo "remote.origin.url is wrongly set"

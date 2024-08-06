@@ -42,12 +42,15 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+### My excluded files/dirs
 jar/
+.secrets
+keypass
+
+### git secret
 .gitsecret/keys/random_seed
 !*.secret
-.secrets
 src/main/resources/application.yml
-keypass
-keys/japan-ticket-price
-keys/japan-ticket-price.pub
+keys/deploy_key
+keys/deploy_key.pub
 keys/gpg-secret-key

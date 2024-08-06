@@ -45,7 +45,6 @@ bin/
 ### My excluded files/dirs
 jar/
 .secrets
-keypass
 
 ### git secret
 .gitsecret/keys/random_seed

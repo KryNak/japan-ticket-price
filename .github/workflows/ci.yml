@@ -12,6 +12,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - run: |
+          git fetch --tags --unshallow
           git remote set-url origin git@github.com:KryNak/japan-ticket-price.git
       - name: reveal
         uses: entrostat/git-secret-action@v4

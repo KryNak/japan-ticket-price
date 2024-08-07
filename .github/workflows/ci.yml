@@ -33,3 +33,8 @@ jobs:
           (test "$(git config remote.origin.url)" = "git@github.com:KryNak/japan-ticket-price.git" \
           && echo "remote.origin.url is set ok" || echo "remote.origin.url is wrongly set") \
           && ./gradlew release -Prelease.localOnly
+      - if: ${{ !env.ACT }}
+        name: upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}

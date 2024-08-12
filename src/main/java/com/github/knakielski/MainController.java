@@ -11,10 +11,13 @@ public class MainController {
 
     private final SkyScannerClient client;
     private final SkyScannerResponseProcessor processor;
+    private final CommissionService commissionService;
 
-    public MainController(SkyScannerClient client, SkyScannerResponseProcessor processor) {
+    public MainController(SkyScannerClient client, SkyScannerResponseProcessor processor,
+                          CommissionService commissionService) {
         this.client = client;
         this.processor = processor;
+        this.commissionService = commissionService;
     }
 
     public Handler handleGet() {
@@ -24,14 +27,9 @@ public class MainController {
     private BigDecimal flightPrice() {
         String json = client.getRoundTrip();
         BigDecimal originalPrice = processor.extractFlightPrice(json);
-        return takeAccountOfCommissions(originalPrice).setScale(2, RoundingMode.CEILING);
+        return commissionService.takeAccountOfCommissions(originalPrice)
+                                .setScale(2, RoundingMode.CEILING);
     }
 
-    private static BigDecimal takeAccountOfCommissions(BigDecimal originalPrice) {
-        BigDecimal siteVisitCommission = BigDecimal.valueOf(18272, 2);
-        BigDecimal economyStandardCommission = BigDecimal.valueOf(40000, 2);
-        return originalPrice.add(siteVisitCommission)
-                            .add(economyStandardCommission);
-    }
 
 }

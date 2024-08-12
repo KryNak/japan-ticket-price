@@ -1,0 +1,24 @@
+{
+  "data": {
+    "itineraries": [
+      {
+        "id": "17648-2409162250--32093-0-14788-2409171835|14788-2409302235--32093-0-17648-2410010600",
+        "price": {
+          "raw": 4416.99,
+          "formatted": "4 417 zł",
+          "pricingOptionId": "YNJfKwLq7Cj5"
+        }
+      }
+    ],
+    "messages": [],
+    "filterStats": {
+      "carriers": [
+        {
+          "id": -32093,
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LO.png",
+          "name": "LOT"
+        }
+      ]
+    }
+  }
+}

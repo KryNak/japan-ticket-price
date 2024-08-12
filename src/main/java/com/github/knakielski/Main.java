@@ -12,9 +12,10 @@ public class Main {
     public static void main(String[] args) {
         Scheduler.attach();
 
+        CommissionService commissionService = new LotCommissionService();
         SkyScannerClient client = SkyScannerClientFactory.create(ClientType.CACHE_CLIENT);
         SkyScannerResponseProcessor processor = SkyScannerResponseProcessor.create();
-        MainController mainController = new MainController(client, processor);
+        MainController mainController = new MainController(client, processor, commissionService);
         AppServer appServer = new AppServer(mainController);
         appServer.runJavalin();
     }

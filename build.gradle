@@ -1,6 +1,18 @@
+import com.bmuschko.gradle.docker.tasks.image.DockerBuildImage
+import com.bmuschko.gradle.docker.tasks.image.DockerPushImage
+import com.bmuschko.gradle.docker.tasks.image.Dockerfile
+
+buildscript {
+    dependencies {
+        classpath('io.github.cdimascio:dotenv-java:3.0.0')
+    }
+}
+
 plugins {
     id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'pl.allegro.tech.build.axion-release' version '1.18.2'
+    id 'com.bmuschko.docker-remote-api' version '9.4.0'
+    id 'com.bmuschko.docker-java-application' version '9.4.0'
     id 'java'
     id 'jacoco'
 }
@@ -19,9 +31,16 @@ scmVersion {
 
 group = 'com.github.knakielski'
 version = scmVersion.version
+String jarFilename = "${rootProject.name}-$version"
 
 repositories {
     mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
 }
 
 jar {
@@ -42,17 +61,11 @@ jacocoTestReport {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.9.1')
-    testImplementation('org.junit.jupiter:junit-jupiter')
     implementation('io.javalin:javalin:6.1.3')
     implementation('com.fasterxml.jackson.core:jackson-databind:2.16.1')
     implementation('com.konghq:unirest-java:3.14.1')
     implementation('org.slf4j:slf4j-simple:2.0.10')
     implementation('com.google.guava:guava:33.2.1-jre')
-    compileOnly('org.projectlombok:lombok:1.18.34')
-    annotationProcessor('org.projectlombok:lombok:1.18.34')
-    testCompileOnly('org.projectlombok:lombok:1.18.34')
-    testAnnotationProcessor('org.projectlombok:lombok:1.18.34')
     implementation('org.apache.commons:commons-lang3:3.14.0')
     implementation('io.vavr:vavr:0.10.4')
     implementation('com.diffplug.durian:durian:3.4.0')
@@ -64,8 +77,16 @@ dependencies {
     implementation('com.github.ben-manes.caffeine:jcache:3.1.8')
     implementation('org.jobrunr:jobrunr:7.2.2')
     implementation('io.avaje:avaje-config:4.0')
+    implementation('com.github.shyiko.dotenv:dotenv:0.1.1')
+    compileOnly('org.projectlombok:lombok:1.18.34')
+    annotationProcessor('org.projectlombok:lombok:1.18.34')
+
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation('org.junit.jupiter:junit-jupiter')
     testImplementation('org.mockito:mockito-core:4.6.1')
     testImplementation('org.assertj:assertj-core:3.11.1')
+    testCompileOnly('org.projectlombok:lombok:1.18.34')
+    testAnnotationProcessor('org.projectlombok:lombok:1.18.34')
 }
 
 test {
@@ -75,4 +96,43 @@ test {
 
 jacocoTestReport {
     dependsOn test
+}
+
+tasks.register('createDockerfile', Dockerfile) {
+    dependsOn shadowJar
+    group 'custom docker'
+    description 'Tasks which create dockerfile'
+
+    from 'openjdk:17.0.2-jdk-oraclelinux8'
+    label(['maintainer': 'Krystian Nakielski "krystian.nakielski200397@gmail.com"'])
+    workingDir('/app')
+    copyFile("libs", "jars/")
+    entryPoint('java')
+    defaultCommand('-jar', "jars/${jarFilename}-all.jar")
+    exposePort(8080, 8081)
+    instruction 'HEALTHCHECK CMD wget --quiet --tries=1 --spider http://localhost:8080/healthcheck || exit 1'
+
+    doLast {
+        copy {
+            from("./build/libs") {
+                include("${jarFilename}-all.jar")
+            }
+            into "./build/docker/libs"
+            includeEmptyDirs = false
+        }
+    }
+}
+
+tasks.register('buildImage', DockerBuildImage) {
+    dependsOn createDockerfile
+    group 'custom docker'
+    description 'Tasks which build image'
+    images.add("nakiekry/${rootProject.name}:$version")
+}
+
+tasks.register('pushImage', DockerPushImage) {
+    dependsOn buildImage
+    group 'custom docker'
+    description 'Tasks which push image to docker hub'
+    images.set(Set.of("nakiekry/${rootProject.name}:$version"))
 }

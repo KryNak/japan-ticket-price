@@ -1,15 +1,16 @@
 package com.github.knakielski.jsonparser;
 
+import static java.lang.String.format;
+
 import com.google.common.base.Preconditions;
+import com.google.errorprone.annotations.FormatMethod;
+import com.google.errorprone.annotations.FormatString;
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.spi.json.JsonProvider;
+import java.util.List;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
-
-import java.util.List;
-
-import static java.lang.String.format;
 
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class JsonParser {
@@ -20,7 +21,7 @@ public class JsonParser {
         return new JsonParser(jsonProvider.parse(json));
     }
 
-    public <T> T read(String jsonPath, Object... args) {
+    @FormatMethod public <T> T read(@FormatString String jsonPath, Object... args) {
         return single(JsonPath.read(document, format(jsonPath, args)));
     }
 

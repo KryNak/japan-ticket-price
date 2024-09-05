@@ -7,8 +7,8 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 class SkyScannerClientCacheProxy implements SkyScannerClient {
 
-    private final static Cache<String, String> cache = CacheManager.getCache();
     private final SkyScannerClient skyScannerClient;
+    private static final Cache<String, String> cache = CacheManager.getCache();
 
     @Override
     public String getRoundTrip() {

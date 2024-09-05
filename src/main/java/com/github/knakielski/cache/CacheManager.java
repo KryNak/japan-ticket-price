@@ -2,10 +2,9 @@ package com.github.knakielski.cache;
 
 import com.github.benmanes.caffeine.cache.Cache;
 import com.github.benmanes.caffeine.cache.Caffeine;
-import lombok.extern.slf4j.Slf4j;
-
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class CacheManager {
@@ -22,7 +21,7 @@ public class CacheManager {
     }
 
     public static CacheManager getInstance() {
-        if(Objects.isNull(instance)) {
+        if (Objects.isNull(instance)) {
             instance = new CacheManager();
         }
 

@@ -1,8 +1,7 @@
 package com.github.knakielski.jsonparser;
 
-import lombok.NoArgsConstructor;
-
 import java.math.BigDecimal;
+import lombok.NoArgsConstructor;
 
 @NoArgsConstructor(staticName = "create")
 public class SkyScannerResponseProcessor {

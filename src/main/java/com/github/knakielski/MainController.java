@@ -3,7 +3,6 @@ package com.github.knakielski;
 import com.github.knakielski.client.factory.SkyScannerClient;
 import com.github.knakielski.jsonparser.SkyScannerResponseProcessor;
 import io.javalin.http.Handler;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 

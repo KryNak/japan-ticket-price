@@ -1,18 +1,17 @@
 package com.github.knakielski.client.requests.flights;
 
+import static com.github.knakielski.client.requests.flights.FlightsPathVariations.SEARCH_ROUND_TRIP;
+
 import com.github.knakielski.client.requests.SkyScannerGetRequest;
 import com.github.knakielski.client.requests.flights.valueobjects.RequiredFromEntityId;
 import com.github.knakielski.utils.FieldsReader;
+import java.util.function.Function;
 import kong.unirest.GetRequest;
 import kong.unirest.HttpResponse;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
-
-import java.util.function.Function;
-
-import static com.github.knakielski.client.requests.flights.FlightsPathVariations.SEARCH_ROUND_TRIP;
 
 @Setter(AccessLevel.PRIVATE)
 @Accessors(fluent = true)

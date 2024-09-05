@@ -3,7 +3,7 @@ package com.github.knakielski.client.requests;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public abstract class AbstractApiPath <T extends PathVariation> implements ApiPath<T> {
+public abstract class AbstractApiPath<T extends PathVariation> implements ApiPath<T> {
 
     private final String root;
 

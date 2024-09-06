@@ -12,6 +12,7 @@ import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
+import org.jspecify.nullness.Nullable;
 
 @Setter(AccessLevel.PRIVATE)
 @Accessors(fluent = true)
@@ -22,18 +23,18 @@ public class RoundTripRequest implements SkyScannerGetRequest {
     private static final String REQUEST_PATH = new FlightsPath().getVariation(SEARCH_ROUND_TRIP);
 
     private final String fromEntityId;
-    private String toEntityId;
-    private String wholeMonthDepart;
-    private String wholeMonthReturn;
-    private String departDate;
-    private String returnDate;
-    private String market;
-    private String locale;
-    private String currency;
-    private String stops;
-    private String adults;
-    private String infants;
-    private String cabinClass;
+    @Nullable private String toEntityId;
+    @Nullable private String wholeMonthDepart;
+    @Nullable private String wholeMonthReturn;
+    @Nullable private String departDate;
+    @Nullable private String returnDate;
+    @Nullable private String market;
+    @Nullable private String locale;
+    @Nullable private String currency;
+    @Nullable private String stops;
+    @Nullable private String adults;
+    @Nullable private String infants;
+    @Nullable private String cabinClass;
 
     @Override
     public HttpResponse<String> execute(Function<String, GetRequest> httpMethod) {
@@ -50,18 +51,18 @@ public class RoundTripRequest implements SkyScannerGetRequest {
     @Accessors(fluent = true)
     public static class Builder {
         private final String fromEntityId;
-        private String toEntityId;
-        private String wholeMonthDepart;
-        private String wholeMonthReturn;
-        private String departDate;
-        private String returnDate;
-        private String market;
-        private String locale;
-        private String currency;
-        private String stops;
-        private String adults;
-        private String infants;
-        private String cabinClass;
+        @Nullable private String toEntityId;
+        @Nullable private String wholeMonthDepart;
+        @Nullable private String wholeMonthReturn;
+        @Nullable private String departDate;
+        @Nullable private String returnDate;
+        @Nullable private String market;
+        @Nullable private String locale;
+        @Nullable private String currency;
+        @Nullable private String stops;
+        @Nullable private String adults;
+        @Nullable private String infants;
+        @Nullable private String cabinClass;
 
         public Builder(RequiredFromEntityId fromEntityId) {
             this.fromEntityId = fromEntityId.getFromEntityId();

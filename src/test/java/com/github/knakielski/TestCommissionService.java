@@ -1,13 +1,12 @@
 package com.github.knakielski;
 
-import org.junit.jupiter.api.Test;
-
-import java.math.BigDecimal;
-import java.util.Map;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
+
+import java.math.BigDecimal;
+import java.util.Map;
+import org.junit.jupiter.api.Test;
 
 public class TestCommissionService {
 

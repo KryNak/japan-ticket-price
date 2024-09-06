@@ -11,6 +11,11 @@ public class CacheManager {
 
     public static final String GET_ROUND_TRIP_KEY = "getRoundTripKey";
     private static CacheManager instance;
+
+    static {
+        instance = new CacheManager();
+    }
+
     private final Cache<String, String> cache;
 
     public CacheManager() {

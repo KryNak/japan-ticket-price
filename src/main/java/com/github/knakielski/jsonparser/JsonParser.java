@@ -1,5 +1,6 @@
 package com.github.knakielski.jsonparser;
 
+import static com.github.knakielski.utils.GenericUtils.castToGenericList;
 import static java.lang.String.format;
 
 import com.google.common.base.Preconditions;
@@ -21,8 +22,10 @@ public class JsonParser {
         return new JsonParser(jsonProvider.parse(json));
     }
 
-    @FormatMethod public <T> T read(@FormatString String jsonPath, Object... args) {
-        return single(JsonPath.read(document, format(jsonPath, args)));
+    @FormatMethod
+    public <T> T read(Class<T> expectedType, @FormatString String jsonPath, Object... args) {
+        Object retrieved = JsonPath.read(document, format(jsonPath, args));
+        return single(castToGenericList(retrieved, expectedType));
     }
 
     private static <T> T single(List<T> results) {

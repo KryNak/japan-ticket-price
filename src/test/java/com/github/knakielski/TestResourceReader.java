@@ -1,5 +1,7 @@
 package com.github.knakielski;
 
+import static com.google.common.base.Preconditions.checkArgument;
+
 import com.google.common.base.Preconditions;
 import com.google.common.io.Resources;
 import java.nio.file.Files;
@@ -21,7 +23,7 @@ public class TestResourceReader {
 
     @SneakyThrows
     public static String readPredefined(Integer no) {
-        Preconditions.checkArgument(no >= 1 && no <= 3, "There is no such predefined input");
+        checkArgument(no >= 1 && no <= 3, "There is no such predefined input");
         return read(pathForInput(no));
     }
 

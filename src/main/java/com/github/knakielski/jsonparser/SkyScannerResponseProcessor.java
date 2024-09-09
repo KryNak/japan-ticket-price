@@ -1,10 +1,14 @@
 package com.github.knakielski.jsonparser;
 
 import java.math.BigDecimal;
-import lombok.NoArgsConstructor;
 
-@NoArgsConstructor(staticName = "create")
 public class SkyScannerResponseProcessor {
+
+    private SkyScannerResponseProcessor() {}
+
+    public static SkyScannerResponseProcessor create() {
+        return new SkyScannerResponseProcessor();
+    }
 
     public BigDecimal extractFlightPrice(String requestResponse) {
         JsonParser parser = JsonParser.parse(requestResponse);

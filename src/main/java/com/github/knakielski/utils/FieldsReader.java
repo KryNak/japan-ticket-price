@@ -21,7 +21,7 @@ public class FieldsReader {
     public static <T1, T2 extends HttpRequest<T2>> T2 appendToRequestAsQueryParams(T2 request, T1 object) {
         return Arrays.stream(FieldUtils.getAllFields(RoundTripRequest.class))
                      .map(it -> let(it, it2 -> it2.setAccessible(true)))
-                     .filter(throwingPredicate(it -> Objects.nonNull(it.get(object))))
+                     .filter(throwingPredicate(it -> it.get(object) != null))
                      .reduce(request, createAccumulator(object), FieldsReader::combiner);
     }
 

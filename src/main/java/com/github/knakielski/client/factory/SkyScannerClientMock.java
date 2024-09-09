@@ -6,8 +6,8 @@ import java.nio.file.Paths;
 import lombok.SneakyThrows;
 
 class SkyScannerClientMock implements SkyScannerClient {
-    @SneakyThrows
     @Override
+    @SneakyThrows
     public String getRoundTrip() {
         return Files.readString(Paths.get(Resources.getResource("response-mock.json").getPath()));
     }

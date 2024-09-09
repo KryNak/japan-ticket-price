@@ -4,18 +4,18 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
 
+import com.google.common.collect.ImmutableMap;
 import java.math.BigDecimal;
-import java.util.Map;
 import org.junit.jupiter.api.Test;
 
-public class TestCommissionService {
+final class TestCommissionService {
 
-    private final CommissionService serviceMock = spy(CommissionService.class);
+    private final CommissionService serviceMock = spy();
 
     @Test
-    public void test_get_commissions_total() {
+    void getCommissionsTotal() {
         //given
-        when(serviceMock.getCommissions()).thenReturn(Map.of(
+        when(serviceMock.getCommissions()).thenReturn(ImmutableMap.of(
                 "x1", BigDecimal.valueOf(120_25, 2),
                 "x2", BigDecimal.valueOf(100_5, 1)
         ));
@@ -28,7 +28,7 @@ public class TestCommissionService {
     }
 
     @Test
-    public void test_take_account_of_commissions() {
+    void takeAccountOfCommissions() {
         //given
         when(serviceMock.getCommissionsTotal()).thenReturn(BigDecimal.valueOf(47_00, 2));
 

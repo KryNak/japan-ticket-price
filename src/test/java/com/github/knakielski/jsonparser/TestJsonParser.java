@@ -6,17 +6,17 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-public class TestJsonParser {
+final class TestJsonParser {
 
     private static JsonParser jsonParser;
 
     @BeforeAll
-    public static void setup() {
+    static void setup() {
         jsonParser = JsonParser.parse(readPredefined(1));
     }
 
     @Test
-    public void test_read() {
+    void read() {
         //given
 
         //when

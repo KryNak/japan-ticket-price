@@ -1,6 +1,7 @@
 import com.bmuschko.gradle.docker.tasks.image.DockerBuildImage
 import com.bmuschko.gradle.docker.tasks.image.DockerPushImage
 import com.bmuschko.gradle.docker.tasks.image.Dockerfile
+import net.ltgt.gradle.errorprone.CheckSeverity
 
 buildscript {
     dependencies {
@@ -33,7 +34,7 @@ scmVersion {
 
 group = 'com.github.knakielski'
 version = scmVersion.version
-String jarFilename = "${rootProject.name}-$version"
+def jarFilename = "${rootProject.name}-$version"
 
 repositories {
     mavenCentral()
@@ -90,15 +91,17 @@ dependencies {
 
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation('org.junit.jupiter:junit-jupiter')
-    testImplementation('org.mockito:mockito-core:4.6.1')
+    testImplementation('org.mockito:mockito-core:5.13.0')
     testImplementation('org.assertj:assertj-core:3.11.1')
     testCompileOnly('org.projectlombok:lombok:1.18.34')
     testAnnotationProcessor('org.projectlombok:lombok:1.18.34')
 
-    errorprone('com.uber.nullaway:nullaway:0.11.2')
+    checkstyle('com.puppycrawl.tools:checkstyle:10.18.1')
     implementation('org.jspecify:jspecify:0.2.0')
     errorprone('com.google.errorprone:error_prone_core:2.31.0')
-    checkstyle('com.puppycrawl.tools:checkstyle:10.18.1')
+    errorprone('com.uber.nullaway:nullaway:0.11.2')
+    errorprone("tech.picnic.error-prone-support:error-prone-contrib:0.18.0")
+    errorprone("tech.picnic.error-prone-support:refaster-runner:0.18.0")
 }
 
 test {
@@ -110,15 +113,12 @@ jacocoTestReport {
     dependsOn test
 }
 
-import net.ltgt.gradle.errorprone.CheckSeverity
-
 tasks.withType(JavaCompile).configureEach {
     options.errorprone {
         check("NullAway", CheckSeverity.ERROR)
         option("NullAway:AnnotatedPackages", "com.github.knakielski")
     }
 }
-
 
 tasks.register('createDockerfile', Dockerfile) {
     dependsOn shadowJar
@@ -157,4 +157,14 @@ tasks.register('pushImage', DockerPushImage) {
     group 'custom docker'
     description 'Tasks which push image to docker hub'
     images.set(Set.of("nakiekry/${rootProject.name}:$version"))
+}
+
+tasks.register('checkCode') {
+    def tasks = [clean, checkstyleMain]
+    for (int i = 0; i < tasks.size() - 1; i++) {
+        tasks[i + 1].mustRunAfter(tasks[i])
+    }
+    finalizedBy(tasks)
+    group 'checks'
+    description 'Tasks which compile code for searching flawss'
 }

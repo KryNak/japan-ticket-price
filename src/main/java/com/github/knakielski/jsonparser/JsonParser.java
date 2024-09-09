@@ -1,9 +1,9 @@
 package com.github.knakielski.jsonparser;
 
 import static com.github.knakielski.utils.GenericUtils.castToGenericList;
+import static com.google.common.base.Preconditions.checkArgument;
 import static java.lang.String.format;
 
-import com.google.common.base.Preconditions;
 import com.google.errorprone.annotations.FormatMethod;
 import com.google.errorprone.annotations.FormatString;
 import com.jayway.jsonpath.Configuration;
@@ -29,7 +29,7 @@ public class JsonParser {
     }
 
     private static <T> T single(List<T> results) {
-        Preconditions.checkArgument(results.size() == 1, "Result should contain exact one element");
+        checkArgument(results.size() == 1, "Result should contain exact one element");
         return results.get(0);
     }
 }
